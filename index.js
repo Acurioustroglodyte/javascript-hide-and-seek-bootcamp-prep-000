@@ -19,6 +19,5 @@ function deepestChild() {
   while (grand.querySelector('* > *')) {
     grand = grand.querySelector('* > *');
   }
-  
   return grand;
 }
