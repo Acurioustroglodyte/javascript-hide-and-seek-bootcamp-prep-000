@@ -14,7 +14,7 @@ var rankedLi = document.getElementById('app').querySelectorAll('.ranked-list li'
 }
 
 function deepestChild() {
-  var grand = document.querySelectorAll('#grand-node');
+  var grand = document.querySelector('#grand-node');
   var deepest = "";
   
   while (grand.querySelector('* > *')) {
